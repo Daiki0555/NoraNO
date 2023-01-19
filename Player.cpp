@@ -66,7 +66,7 @@ bool Player::Start()
 	pointLight = new PointLight;
 	pointLight->Init();
 	//ポイントライトの色
-	pointLight->SetColor(Vector3(1.5f, 1.5f, 1.5f));
+	pointLight->SetColor(Vector3(3.5f, 1.5f, 1.5f));
 	//ポイントライトの影響範囲
 	pointLight->SetRange(800.0f);
 	pointLight->SetAffectPowParam(1.0f);
